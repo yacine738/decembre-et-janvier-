@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+    android:src="@drawable/cybersecurité"
+    android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:orientation="vertical"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/storyTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CyberSecurité"
+            android:background="#D17609"
+            android:padding="4dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:id="@+id/s_t"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Protégez vos données : Les clés pour une cybersécurité efficace"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#fff"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/texte1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/long_story_text"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_margin="5dp"
+            android:lineSpacingExtra="3dp"/>
+
+        <TextView
+            android:id="@+id/texte2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Protégez vos données : Les clés pour une cybersécurité efficace"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:id="@+id/s_t2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Today, 2:16 AM"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#F3F3F3"/>
+    </LinearLayout>
+</LinearLayout>
